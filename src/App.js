@@ -4,6 +4,8 @@ import {films} from "./data"
 import MovieList from "./MovieList"
 import AddMovies from "./AddMovies";
 import FilterMovie from "./FilterMovie";
+import { Routes,Route } from "react-router-dom";
+import Profile from "./Profile";
 function App() {
   let [movies,setMovies]=useState(films)
   let [text,setText]=useState("")
@@ -13,9 +15,23 @@ function App() {
   }
   return (
     <div className="App">
-       <FilterMovie setText={setText} />
-      <MovieList movies={movies} text={text} />
-      <AddMovies addfilm={addfilm}/>
+       
+   
+    
+<Routes>
+<Route   path="/" element={  
+  <>
+     <FilterMovie setText={setText} />
+
+   <MovieList movies={movies} text={text} />
+   <AddMovies addfilm={addfilm}/>
+   </>
+   }/>
+
+
+<Route   path="/Profile/:idfilm" element={   <Profile/>}/>
+</Routes>
+
     </div>
   );
 }

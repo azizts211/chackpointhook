@@ -1,5 +1,6 @@
 import {Card,CardBody,CardTitle,CardText,Button} from "reactstrap"
 import ReactStars from 'react-stars'
+import {Link} from "react-router-dom"
 const MovieCard=(props)=>{
     return(
 
@@ -15,7 +16,9 @@ style={{height:"300px"}}
   />
   <CardBody>
     <CardTitle tag="h5">
+      <Link to={`/Profile/${props.el.id}`}>
       {props.el.name}
+      </Link>
       
     </CardTitle>
     <ReactStars

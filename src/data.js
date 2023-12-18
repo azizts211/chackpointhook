@@ -6,7 +6,8 @@ export const films=[
         star: 5,
         duration: "189 minutes",
         discription: "The Green Mile is a 1999 American fantasy crime drama film written and directed by Frank Darabont and adapted from Stephen King’s 1996 novel of the same name.",
-        id:1
+        id:1,
+        url:"https://www.youtube.com/embed/Ki4haFrqSrw"
 
     },
     {
@@ -16,7 +17,8 @@ export const films=[
         star: 4,
         duration: "107 minutes",
         discription: "Your Name (Kimi no na wa)Is a Japanese animated film directed by Makoto Shinkai, released on August 26 , 2016 in Japan. It is adapted from Makoto Shinkai's novel, published on June 18, 2016 in Japan by Kadokawa.",
-        id:2
+        id:2,
+        url:"https://www.youtube.com/embed/xU47nhruN-Q"
 
     },
     {
@@ -26,7 +28,8 @@ export const films=[
         star: 2,
         duration: "106 minutes",
         discription: "I Origins is an independent drama sci-fi , written, produced and directed by Mike Cahill, released in 2014.",
-        id:3
+        id:3,
+        url:"https://www.youtube.com/embed/Mk4briOLrTQ"
 
     },
     {
@@ -36,8 +39,8 @@ export const films=[
         star: 4,
         duration: "110 minutes",
         discription: "Wanted is a German-American film directed by Timur Bekmambetov, released in 2008. It is the adaptation of the Wanted comicsseries written by Mark Millarand drawn by JG Jones ",
-        id:4
-
+        id:4,
+        url:"https://www.youtube.com/embed/edpEspHOeVU"
     },
     {
         img: "https://images-na.ssl-images-amazon.com/images/I/51TfUWh5N9L._SY445_.jpg",
